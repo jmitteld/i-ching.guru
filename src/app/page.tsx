@@ -12,10 +12,10 @@ export default function Home() {
       <ParallaxBanner className="text-background [&_button]:(my-1)" bgImage='/images/homepage-intro-bg.jpg' bgImageStyle={{bottom: "-150px"}} bgImageAlt="the cat" strength={200}>
       <div className="max-w-screen-md w-screen-md mx-auto my-7 px-5 font-cursive">
           <h1 className="text-13 mb-5 leading-50px">Consult the I Ching</h1>
-          <h2 className="text-7 mb-5">with Meryl Ann Butler, Josh Mitteldorf and Gregory Richter</h2>
+          <h2 className="text-7 mb-5">with Josh Mitteldorf and Gregory Richter, graphics by Meryl Ann Butler</h2>
           <h2 className="text-7 mb-5">An interactive experience</h2>
           <Link href="/cast"><Button>Begin</Button></Link>&nbsp;&nbsp;
-          <Link href="#buy"><Button>Buy Book</Button>&nbsp;&nbsp;</Link>
+          <Link href="#buy"><Button>Download PDF ebook</Button>&nbsp;&nbsp;</Link>
           <Link href='/about'><Button>About I Ching</Button></Link>
         </div>
       </ParallaxBanner>
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="col-span-12 my-5 sm:(col-span-5 pl-5)">
             <h2 className="text-7 mb-2">I Ching Sonnets</h2>
-            <h5 className="text-4.2 mb-3">by Meryl Ann Butler,<br/> Josh Mitteldorf<br/>and Gregory Richter</h5>
+            <h5 className="text-4.2 mb-3">by Josh Mitteldorf<br/>and Gregory Richter</h5>
             <Button className="mb-2 mr-2">Buy PDF</Button>
             <Button className="mb-2 mr-2">Printed Book (available soon)</Button>
           </div>
