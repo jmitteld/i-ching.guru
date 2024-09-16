@@ -13,7 +13,7 @@ export default function Home() {
       <div className="max-w-screen-md w-screen-md mx-auto my-7 px-5 font-cursive">
           <h1 className="text-13 mb-5 leading-50px">Consult the I Ching</h1>
           <h2 className="text-7 mb-5">with Josh Mitteldorf and Gregory Richter, graphics by Meryl Ann Butler</h2>
-          <h2 className="text-7 mb-5">An interactive experience!!!</h2>
+          <h2 className="text-7 mb-5">An interactive experience</h2>
           <Link href="/cast"><Button>Begin</Button></Link>&nbsp;&nbsp;
           <Link href="#buy"><Button>Download PDF ebook</Button>&nbsp;&nbsp;</Link>
           <Link href='/about'><Button>About I Ching</Button></Link>
