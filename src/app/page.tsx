@@ -15,7 +15,7 @@ export default function Home() {
           <h2 className="text-7 mb-5">with Josh Mitteldorf and Gregory Richter, graphics by Meryl Ann Butler</h2>
           <h2 className="text-7 mb-5">An interactive experience</h2>
           <Link href="/cast"><Button>Begin</Button></Link>&nbsp;&nbsp;
-          <Link href="#buy"><Button>Download PDF ebook</Button>&nbsp;&nbsp;</Link>
+          <Link href="https://drive.google.com/file/d/1qQ3cVhVV6oLCYfcdAbt2tBycZsAKOd2O/view?usp=drive_link"><Button>Download PDF ebook</Button>&nbsp;&nbsp;</Link>
           <Link href='/about'><Button>About I Ching</Button></Link>
         </div>
       </ParallaxBanner>
@@ -51,7 +51,7 @@ export default function Home() {
           <div className="col-span-12 my-5 sm:(col-span-5 pl-5)">
             <h2 className="text-7 mb-2">I Ching Sonnets</h2>
             <h5 className="text-4.2 mb-3">by Josh Mitteldorf<br/>and Gregory Richter</h5>
-            <Button className="mb-2 mr-2">Buy PDF</Button>
+            <Link href="https://drive.google.com/file/d/1qQ3cVhVV6oLCYfcdAbt2tBycZsAKOd2O/view?usp=drive_link"> <Button className="mb-2 mr-2">Download PDF</Button></Link>
             <Button className="mb-2 mr-2">Printed Book (available soon)</Button>
           </div>
         </div>
