@@ -8,7 +8,7 @@ export const metadata = {
 export default function ContactPage() {
   return (<>
     <Container className='text-stone-7'>
-      <p>Contact page.</p>
+      <p>Write to Josh at aging dot advice [at] gmail dot com.</p>
     </Container>
   </>)
 }
