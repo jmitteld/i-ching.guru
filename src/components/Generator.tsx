@@ -134,7 +134,7 @@ export default function Generator() {
       <div className="h-200px">
       { hexagrams[0] === 0
         ? <div>
-            <div className={"text-center text-(4.8) my-5 py-0 transition duration-1s ease-in-out "+(castResult.length == 3 && "opacity-0")}>Touch the coins to cast.</div>
+            <div className={"text-center text-(4.8) my-5 py-0 transition duration-1s ease-in-out "+(castResult.length == 3 && "opacity-0")}>Touch all coins to cast. Repeat 6x to create full hexagram.</div>
             <div className="pt-7px text-center flex w-fit mx-auto
               [&>.heads]:(animate-flipHeads animate-forwards)
               [&>.tails]:(animate-flipTails animate-forwards) ">

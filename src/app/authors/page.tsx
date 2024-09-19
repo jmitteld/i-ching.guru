@@ -29,7 +29,16 @@ export default function AuthorsPage() {
           <Image src={gregPhoto.src} alt="I Ching Sonnets" className="max-w-100%" width={gregPhoto.width} height={gregPhoto.height} />
         </div>
         <div className='col-span-12 sm:col-span-8'>
-          <p><b>Gregory C. Richter</b> (Ph.D. in Linguistics, University of California San Diego, 1982) served as Professor of German and Linguistics at Truman State University, Missouri, from 1983 to 2022; among his course offerings were <i>German/English Translation, Linguistics of the Romance Languages,</i> and courses on Latin, French, Russian, Chinese, and Icelandic. He maintains interests in formal linguistics, translation, and translation theory. His publications include translations from German centering on the Viennese psychoanalytic writings of Sigmund Freud and Otto Rank. He has also published poetry translations from Icelandic (<i>Chariton Review</i>), a translation of Albert Giraud's rondel cycle <i>Pierrot Lunaire</i>(1884), and <i>The Gate of All Marvelous Things,</i> a translation of Laozi's <i>Dao De Jing.</i> Additional work has appeared in <i>International Journal of American Linguistics, The Journal of Religion and Health,</i> and <i>The Journal of American Folklore.</i> He currently serves as an editor and translator for Plain Wrapper Press Redux.</p>
+          <p><b>Gregory C. Richter</b> (Ph.D. in Linguistics, University of California San Diego, 1982) served as Professor of German and Linguistics at Truman State University, Missouri, from 1983 to 2022; among his course offerings were <i>German/English Translation, Linguistics of the Romance Languages,</i> and courses on Latin, French, Russian, Chinese, and Icelandic. He maintains interests in formal linguistics, translation, and translation theory. His publications include translations from German centering on the Viennese psychoanalytic writings of Sigmund Freud and Otto Rank. He has also published poetry translations from Icelandic (<i>Chariton Review</i>), a translation of Albert Giraud's rondel cycle <i>Pierrot Lunaire</i> (1884), and <i>The Gate of All Marvelous Things,</i> a translation of Laozi's <i>Dao De Jing.</i> Additional work has appeared in <i>International Journal of American Linguistics, The Journal of Religion and Health,</i> and <i>The Journal of American Folklore.</i> He currently serves as an editor and translator for Plain Wrapper Press Redux.</p>
+        </div>
+      </div>
+
+      <div className='grid cols-12'>
+        <div className='col-span-12 sm:col-span-4'>
+          <Image src={merylPhoto.src} alt="I Ching Sonnets" className="max-w-100%" width={merylPhoto.width} height={merylPhoto.height} />
+        </div>
+        <div className='col-span-12 sm:col-span-8'>
+        <p>Visionary artist <b>Meryl Ann Butler</b> is known for fabric art and spiritual mandalas. Her <a href="https://oceanviewarts.com/">teaching studio</a> is in Virginia Beach. She writes for OpEdNews, where she is a managing editor.</p>
         </div>
       </div>
 
@@ -39,15 +48,6 @@ export default function AuthorsPage() {
         </div>
         <div className='col-span-12 sm:col-span-8'>
         <p><b>Andrey Samode</b> is a freelance software engineer and site design artist. He is also trained as a counselor and has practiced yoga and meditation for over twenty years. Check out his <a href="https://www.youtube.com/watch?v=ssBOkj2VJHo">music</a>!</p>
-        </div>
-      </div>
-
-    <div className='grid cols-12'>
-        <div className='col-span-12 sm:col-span-4'>
-          <Image src={merylPhoto.src} alt="I Ching Sonnets" className="max-w-100%" width={merylPhoto.width} height={merylPhoto.height} />
-        </div>
-        <div className='col-span-12 sm:col-span-8'>
-        <p>Visionary artist <b>Meryl Ann Butler</b> is known for fabric art and spiritual mandalas. Her <a href="https://oceanviewarts.com/">teaching studio</a> is in Virginia Beach.</p>
         </div>
       </div>
 
