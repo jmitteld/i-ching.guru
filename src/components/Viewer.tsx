@@ -48,7 +48,7 @@ const Viewer: React.FC<{hexagram1:number, hexagram2:number}> = ({hexagram1, hexa
                 <div onClick={handleClick1} className="font-500 text-5 lt-sm:(w-30px) cursor-pointer">{hexagram1}</div>
                 <Image onClick={handleClick1} className="filter-invert cursor-pointer" src={'/hexagrams/'+hexagram1+'.png'} alt="Hexagram" width={200} height={200} priority />
                 <div onClick={handleClick1} className={buttonClasses}>
-                  <div>POETRY<br/>& ART</div>
+                  <div>READ<br/>aloud</div>
                   <AudioPlayer className="audioplayer-hexagram"
                       ref={player1}
                       showSkipControls={false}
@@ -70,7 +70,7 @@ const Viewer: React.FC<{hexagram1:number, hexagram2:number}> = ({hexagram1, hexa
                   <div onClick={handleClick2} className="font-500 text-5 lt-sm:(w-30px) cursor-pointer">{hexagram2}</div>
                   <Image onClick={handleClick2} className="filter-invert cursor-pointer" src={'/hexagrams/'+hexagram2+'.png'} alt="Hexagram" width={200} height={200} priority/>
                   <div onClick={handleClick2} className={buttonClasses}>
-                    <div>POETRY<br/> & ART</div>
+                    <div>READ<br/>aloud</div>
                     <AudioPlayer className="audioplayer-hexagram"
                         ref={player2}
                         showSkipControls={false}

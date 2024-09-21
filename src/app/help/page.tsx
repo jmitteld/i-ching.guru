@@ -1,0 +1,27 @@
+import Container from "@/components/Container";
+
+export const metadata = {
+  title: 'I Ching Art & Poetry | Help',
+  description: 'About I Ching',
+};
+
+export default function AuthorsPage() {
+  return(<>
+
+    <Container className="[&_p]:mb-5 text-stone-7">
+
+    <h1 className="font-5 font-500 mb-3 text-(5 center)">Help</h1>
+
+    <p>This site was designed as an aid to tapping into deep wisdom within you and from sources more mysterious. If this is why you are here, please read the &ldquo;About&rsquo; page and proceed with the &ldquo;Cast coins&rsquo; option and listen to the meditation.</p>
+    <p>Maybe you are here for a lighter purpose, to dip into the poetry or to play with the augury. I won&rsquo;t discourage you. <a href="https://drive.google.com/file/d/1qQ3cVhVV6oLCYfcdAbt2tBycZsAKOd2O/view?usp=drive_link">Download the PDF</a> and flip through it. Or go to the cast coins page and see what turns up. </p>
+    <p><strong>On the cast coins page</strong> &mdash; Pass your cursor over all three coins to create one line of the hexagram. The line is either broken or straight yin or yang, according to the traditional expression. Repeat six times to create all six lines. Some of the hex lines are scheduled for possible change in the future. This is the meaning of the &ldquo;possible future&rsquo; hexagram, alongside the &ldquo;poresent&rdquo; in the display. </p>
+    <p>Press &ldquo;See art and sonnets&rdquo; to go to the sonnet for your &lsquo;present&rsquo; hexagram. On the left of the screen, you will have options to </p>
+    <p><ul>
+      <li>&nbsp; &nbsp; &#x2022; Hear the sonnet read aloud.</li>
+      <li>&nbsp; &nbsp; &#x2022; Read the original Chinese and literal translation.</li>
+      <li>&nbsp; &nbsp; &#x2022; See the &lsquo;possible future&rsquo; art and sonnet, with the same options.</li>
+    </ul></p> 
+    </Container>
+
+  </>);
+}

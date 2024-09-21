@@ -15,6 +15,7 @@ const navItems = [
   { path: "/cast", text: "Cast coins" },
   { path: "/authors", text: "Authors" },
   { path: "/contact", text: "Contact" },
+  { path: "/help", text: "Help" },
 ];
 
 export default function Navbar () {
@@ -22,7 +23,7 @@ export default function Navbar () {
   return <>
     <div className="bg-stone-1">
       <header className="max-w-screen-md mx-auto py-4 px-7 flex items-center [&_.active]:text-primary-foreground-hover">
-        <Link href="/" className="font-(cursive 550) text-(8 secondary-foreground) grow-1">I Ching Art & Poetry</Link>
+        <Link href="/" className=" text-(4 secondary-foreground) grow-1">HOME</Link>
         {/* !nav links (skip the "home" link) */}
         <div className="hidden sm:block">
           { navItems.map((link, index) => link.path !== "/" &&

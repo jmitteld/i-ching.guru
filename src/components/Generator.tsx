@@ -185,12 +185,13 @@ export default function Generator() {
         </div>
       </div>
 
-      {/* !DEV - "TEST" button for faster hexagram generation */}
-      <div className="text-center mt-100px [&_button]:mx-2">
-        <Button onClick={handleTest}>QUICK TEST</Button>
-        <Button onClick={handleTest2}>FILLED-O</Button>
+     {/* !DEV - "TEST" button for faster hexagram generation 
+     <div className="text-center mt-100px [&_button]:mx-2">
+      <Button onClick={handleTest}>QUICK TEST</Button>
+       <Button onClick={handleTest2}>FILLED-O</Button>
         <Button onClick={handleTest3}>BROKEN-X</Button>
       </div>
+     */}   
     </>
   );
 }

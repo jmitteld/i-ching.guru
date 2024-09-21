@@ -13,9 +13,10 @@ export default function Home() {
       <div className="max-w-screen-md w-screen-md mx-auto my-7 px-5 font-cursive">
           <h1 className="text-13 mb-5 leading-50px">&nbsp; &nbsp; &nbsp; &mdash; Consult the I Ching &mdash;</h1>
           <h2 className="text-7 mb-5">with Josh Mitteldorf & Gregory Richter, art by Meryl Ann Butler</h2>
-          <Link href="/cast"><Button>Cast coins</Button></Link>&nbsp;&nbsp;
+          &nbsp; &nbsp; &nbsp; <Link href="/cast"><Button>Cast coins</Button></Link>&nbsp;&nbsp;
           <Link href="https://drive.google.com/file/d/1qQ3cVhVV6oLCYfcdAbt2tBycZsAKOd2O/view?usp=drive_link"><Button>Download PDF ebook</Button>&nbsp;&nbsp;</Link>
-          <Link href='/about'><Button>About I Ching</Button></Link>
+          <Link href='/about'><Button>About I Ching</Button></Link>&nbsp;&nbsp;
+          <Link href='/help'><Button>Help</Button></Link>
         </div>
       </ParallaxBanner>
 
