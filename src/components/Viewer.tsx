@@ -45,6 +45,7 @@ const Viewer: React.FC<{hexagram1:number, hexagram2:number}> = ({hexagram1, hexa
             <div className="flex flex-col justify-center h-100% w-100px text-white [&_img]:max-w-100% p-2 text-center
               [&>div>button]:(w-80px h-40px mt-20px) lt-sm:(w-100% h-100px [&_img]:w-50px [&>div>button]:(mt-0 h-50px))">
               <div className="lt-sm:(flex items-center justify-around)">
+              <div><p align="center">PRESENT</p></div>
                 <div onClick={handleClick1} className="font-500 text-5 lt-sm:(w-30px) cursor-pointer">{hexagram1}</div>
                 <Image onClick={handleClick1} className="filter-invert cursor-pointer" src={'/hexagrams/'+hexagram1+'.png'} alt="Hexagram" width={200} height={200} priority />
                 <div onClick={handleClick1} className={buttonClasses}>
@@ -61,13 +62,14 @@ const Viewer: React.FC<{hexagram1:number, hexagram2:number}> = ({hexagram1, hexa
                       onPlay={handleClick1}
                   />
                 </div>
-
                 <Button variant="outlineBlack" onClick={() => setArt(`${hexagram1}g`)} className="whitespace-normal leading-4 !text-2.4">LITERAL TRANSLATION</Button>
+                <div><br></br></div>
               </div>
               { hexagram1 != hexagram2 && <hr className="my-5 lt-sm:my-2 w-100% h-0" /> }
               { hexagram1 != hexagram2 &&
                 <div className="lt-sm:(flex items-center justify-around pt-10px) h-40%">
-                  <div onClick={handleClick2} className="font-500 text-5 lt-sm:(w-30px) cursor-pointer">{hexagram2}</div>
+                <div><p align="center">POSSIBLE FUTURE</p></div>
+                 <div onClick={handleClick2} className="font-500 text-5 lt-sm:(w-30px) cursor-pointer">{hexagram2}</div>
                   <Image onClick={handleClick2} className="filter-invert cursor-pointer" src={'/hexagrams/'+hexagram2+'.png'} alt="Hexagram" width={200} height={200} priority/>
                   <div onClick={handleClick2} className={buttonClasses}>
                     <div>READ<br/>aloud</div>
@@ -84,6 +86,9 @@ const Viewer: React.FC<{hexagram1:number, hexagram2:number}> = ({hexagram1, hexa
                     />
                   </div>
                   <Button variant="outlineBlack" onClick={() => setArt(`${hexagram2}g`)} className="whitespace-normal leading-4 !text-2.4">LITERAL TRANSLATION</Button>
+                  <div><p align="center"><br></br><br></br><hr></hr><br></br>Right click on screen<br></br> to save contents for later.</p>
+                  <p><br></br><hr></hr><br></br>Press &lt;Esc&gt; to return.</p>
+                  </div>
                 </div>
               }
             </div>
